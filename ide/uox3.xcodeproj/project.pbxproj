@@ -316,164 +316,18 @@
 		640751AD2919464A009F004D /* source */ = {
 			isa = PBXGroup;
 			children = (
-				640751AE2919464A009F004D /* regions.h */,
-				640751AF2919464A009F004D /* network.cpp */,
-				640751B02919464A009F004D /* GenericList.h */,
-				640751B12919464A009F004D /* JSEncapsulate.h */,
-				640751B22919464A009F004D /* townregion.h */,
-				640751B32919464A009F004D /* uox3.h */,
-				640751B42919464A009F004D /* mapclasses.h */,
-				640751B52919464A009F004D /* npcs.cpp */,
-				640751B62919464A009F004D /* PartySystem.cpp */,
-				640751B72919464A009F004D /* pcmanage.cpp */,
-				640751B82919464A009F004D /* regions.cpp */,
-				640751B92919464A009F004D /* cBaseobject.cpp */,
-				640751BA2919464A009F004D /* power.h */,
-				640751BB2919464A009F004D /* movement.h */,
-				640751BC2919464A009F004D /* UOXJSMethods.cpp */,
-				640751BD2919464A009F004D /* cChar.h */,
-				640751BE2919464A009F004D /* StringUtility.cpp */,
-				640751BF2919464A009F004D /* CResponse.cpp */,
-				640751C02919464A009F004D /* worldmain.cpp */,
-				640751C12919464A009F004D /* magic.h */,
-				640751C22919464A009F004D /* cGuild.cpp */,
-				640751C32919464A009F004D /* cSkillClass.h */,
-				640751C42919464A009F004D /* CMakeLists.txt */,
-				640751C52919464A009F004D /* teffect.h */,
-				640751C62919464A009F004D /* CJSMapping.cpp */,
-				640751C72919464A009F004D /* IP4Address.hpp */,
-				640751C82919464A009F004D /* typedefs.h */,
-				640751C92919464A009F004D /* cConsole.h */,
-				640751CA2919464A009F004D /* jail.cpp */,
-				640751CB2919464A009F004D /* cScript.cpp */,
-				640751CC2919464A009F004D /* trade.cpp */,
-				640751CD2919464A009F004D /* speech.cpp */,
-				640751CE2919464A009F004D /* cSocket.cpp */,
-				640751CF2919464A009F004D /* skills.cpp */,
-				640751D02919464A009F004D /* ai.cpp */,
-				640751D12919464A009F004D /* scriptc.h */,
-				640751D22919464A009F004D /* boats.cpp */,
-				640751D32919464A009F004D /* magic.cpp */,
-				640751D42919464A009F004D /* targeting.cpp */,
-				640751D52919464A009F004D /* cRaces.cpp */,
-				640751D62919464A009F004D /* cWeather.hpp */,
-				640751D72919464A009F004D /* cHTMLSystem.cpp */,
-				640751D82919464A009F004D /* cMultiObj.h */,
 				640751D92919464A009F004D /* uox3.cpp */,
-				640751DA2919464A009F004D /* skills.h */,
-				640751DB2919464A009F004D /* CPacketReceive.cpp */,
-				640751DC2919464A009F004D /* PartySystem.h */,
-				640751DD2919464A009F004D /* CResponse.h */,
-				640751DE2919464A009F004D /* commands.cpp */,
-				640751DF2919464A009F004D /* UOXJSPropertyEnums.h */,
-				640751E02919464A009F004D /* cdice.h */,
-				640751E12919464A009F004D /* weight.h */,
-				640751E22919464A009F004D /* osunique.hpp */,
-				640751E32919464A009F004D /* weight.cpp */,
-				640751E42919464A009F004D /* wholist.h */,
-				640751E52919464A009F004D /* classes.h */,
-				640751E62919464A009F004D /* UOXJSClasses.h */,
-				640751E72919464A009F004D /* ObjectFactory.h */,
-				640751E82919464A009F004D /* TimeUtility.cpp */,
-				640751E92919464A009F004D /* cConsole.cpp */,
-				640751EA2919464A009F004D /* ObjectFactory.cpp */,
-				640751EB2919464A009F004D /* cSocket.h */,
-				640751EC2919464A009F004D /* UOPData.hpp */,
-				640751ED2919464A009F004D /* UOXJSPropertyFuncs.h */,
-				640751EE2919464A009F004D /* commands.h */,
-				640751EF2919464A009F004D /* fileio.cpp */,
-				640751F02919464A009F004D /* MultiMul.hpp */,
-				640751F12919464A009F004D /* lineofsight.cpp */,
-				640751F22919464A009F004D /* CJSMapping.h */,
-				640751F32919464A009F004D /* ConfigOS.h */,
-				640751F42919464A009F004D /* cVersionClass.h */,
-				640751F52919464A009F004D /* cThreadQueue.h */,
-				640751F62919464A009F004D /* findfuncs.cpp */,
-				640751F72919464A009F004D /* CJSEngine.cpp */,
-				640751F82919464A009F004D /* EventTimer.hpp */,
-				640751F92919464A009F004D /* ssection.cpp */,
-				640751FA2919464A009F004D /* calcfuncs.cpp */,
-				640751FB2919464A009F004D /* movement.cpp */,
-				640751FC2919464A009F004D /* combat.h */,
-				640751FD2919464A009F004D /* enums.h */,
-				640751FE2919464A009F004D /* CJSEngine.h */,
-				640751FF2919464A009F004D /* cServerData.cpp */,
-				640752002919464A009F004D /* CPacketSend.cpp */,
-				640752012919464A009F004D /* combat.cpp */,
-				640752022919464A009F004D /* cWeather.cpp */,
-				640752032919464A009F004D /* effect.cpp */,
-				640752042919464A009F004D /* cSpawnRegion.h */,
-				640752052919464A009F004D /* uoxstruct.h */,
-				640752062919464A009F004D /* books.cpp */,
-				640752072919464A009F004D /* cHTMLSystem.h */,
-				640752082919464A009F004D /* SEFunctions.h */,
-				640752092919464A009F004D /* network.h */,
-				6407520A2919464A009F004D /* osunique.cpp */,
-				6407520B2919464A009F004D /* Dictionary.h */,
-				6407520C2919464A009F004D /* cPlayerAction.cpp */,
-				6407520D2919464A009F004D /* CPacketSend.h */,
-				6407520E2919464A009F004D /* cChar.cpp */,
-				6407520F2919464A009F004D /* cServerDefinitions.h */,
-				640752102919464A009F004D /* speech.h */,
-				640752112919464A009F004D /* gumps.cpp */,
-				640752122919464A009F004D /* quantityfuncs.cpp */,
-				640752132919464A009F004D /* cEffects.h */,
-				640752142919464A009F004D /* vendor.cpp */,
-				640752152919464A009F004D /* TimeUtility.hpp */,
-				640752162919464A009F004D /* cScript.h */,
-				640752172919464A009F004D /* queue.cpp */,
-				640752182919464A009F004D /* cSpawnRegion.cpp */,
-				640752192919464A009F004D /* cGuild.h */,
-				6407521A2919464A009F004D /* ssection.h */,
-				6407521B2919464A009F004D /* UOPData.cpp */,
-				6407521C2919464A009F004D /* cAccountClass.cpp */,
-				6407521D2919464A009F004D /* cBaseObject.h */,
-				6407521E2919464A009F004D /* house.cpp */,
-				6407521F2919464A009F004D /* sound.cpp */,
-				640752202919464A009F004D /* MultiMul.cpp */,
-				640752212919464A009F004D /* SEFunctions.cpp */,
-				640752222919464A009F004D /* resource.h */,
-				640752232919464A009F004D /* cmdtable.h */,
-				640752242919464A009F004D /* cThreadQueue.cpp */,
-				640752252919464A009F004D /* funcdecl.h */,
-				640752262919464A009F004D /* JSEncapsulate.cpp */,
-				640752272919464A009F004D /* EventTimer.cpp */,
-				640752282919464A009F004D /* worldmain.h */,
-				640752292919464A009F004D /* cDice.cpp */,
-				6407522A2919464A009F004D /* msgboard.cpp */,
-				6407522B2919464A009F004D /* msgboard.h */,
-				6407522C2919464A009F004D /* mapstuff.cpp */,
-				6407522D2919464A009F004D /* scriptc.cpp */,
-				6407522E2919464A009F004D /* cServerDefinitions.cpp */,
-				6407522F2919464A009F004D /* items.cpp */,
-				640752302919464A009F004D /* dist.cpp */,
-				640752312919464A009F004D /* cAccountClass.h */,
-				640752322919464A009F004D /* CPacketReceive.h */,
-				640752332919464A009F004D /* cMultiObj.cpp */,
-				640752342919464A009F004D /* cServerData.h */,
-				640752352919464A009F004D /* cMagic.h */,
-				640752362919464A009F004D /* UOXStdHeaders.h */,
-				640752372919464A009F004D /* wholist.cpp */,
-				640752382919464A009F004D /* StringUtility.hpp */,
-				640752392919464A009F004D /* townregion.cpp */,
-				6407523A2919464A009F004D /* CGump.cpp */,
-				6407523B2919464A009F004D /* PageVector.h */,
-				6407523C2919464A009F004D /* jail.h */,
-				6407523D2919464A009F004D /* cItem.cpp */,
-				6407523E2919464A009F004D /* mapstuff.h */,
-				6407523F2919464A009F004D /* cmdtable.cpp */,
-				640752402919464A009F004D /* cItem.h */,
-				640752412919464A009F004D /* books.h */,
-				640752422919464A009F004D /* UOXJSPropertySpecs.h */,
-				640752432919464A009F004D /* Dictionary.cpp */,
-				640752442919464A009F004D /* IP4Address.cpp */,
-				640752452919464A009F004D /* Prerequisites.h */,
-				640752462919464A009F004D /* UOXJSPropertyFuncs.cpp */,
-				640752472919464A009F004D /* archive.cpp */,
-				640752482919464A009F004D /* UOXJSMethods.h */,
-				640752492919464A009F004D /* cRaces.h */,
-				6407524A2919464A009F004D /* cVersionClass.cpp */,
-				6407524B2919464A009F004D /* gump.h */,
+				640751B32919464A009F004D /* uox3.h */,
+				640751C42919464A009F004D /* CMakeLists.txt */,
+				64A753BF291BF11200F9A14E /* baseobject */,
+				64A753B8291BF0BE00F9A14E /* general */,
+				64A753BE291BF10400F9A14E /* jsengine */,
+				64A753BD291BF0FB00F9A14E /* network */,
+				64A753C0291BF2FC00F9A14E /* other */,
+				64A753BC291BF0EF00F9A14E /* script */,
+				64A753B5291BF08900F9A14E /* subsystem */,
+				64A753BA291BF0D800F9A14E /* uodata */,
+				64A753B9291BF0CE00F9A14E /* utility */,
 			);
 			name = source;
 			path = ../source;
@@ -502,6 +356,232 @@
 				640752A829194670009F004D /* libjsengine.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		64A753B5291BF08900F9A14E /* subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				640752142919464A009F004D /* vendor.cpp */,
+				640751E32919464A009F004D /* weight.cpp */,
+				640751E12919464A009F004D /* weight.h */,
+				640752372919464A009F004D /* wholist.cpp */,
+				640751E42919464A009F004D /* wholist.h */,
+				640752062919464A009F004D /* books.cpp */,
+				640752412919464A009F004D /* books.h */,
+				6407521C2919464A009F004D /* cAccountClass.cpp */,
+				640752312919464A009F004D /* cAccountClass.h */,
+				640752132919464A009F004D /* cEffects.h */,
+				6407523A2919464A009F004D /* CGump.cpp */,
+				640751D72919464A009F004D /* cHTMLSystem.cpp */,
+				640752072919464A009F004D /* cHTMLSystem.h */,
+				640752352919464A009F004D /* cMagic.h */,
+				640752012919464A009F004D /* combat.cpp */,
+				640751FC2919464A009F004D /* combat.h */,
+				640751DE2919464A009F004D /* commands.cpp */,
+				640751EE2919464A009F004D /* commands.h */,
+				640752022919464A009F004D /* cWeather.cpp */,
+				640751D62919464A009F004D /* cWeather.hpp */,
+				6407521E2919464A009F004D /* house.cpp */,
+				6407522F2919464A009F004D /* items.cpp */,
+				640751CA2919464A009F004D /* jail.cpp */,
+				6407523C2919464A009F004D /* jail.h */,
+				640751F12919464A009F004D /* lineofsight.cpp */,
+				640751D32919464A009F004D /* magic.cpp */,
+				640751C12919464A009F004D /* magic.h */,
+				640751FB2919464A009F004D /* movement.cpp */,
+				640751BB2919464A009F004D /* movement.h */,
+				640751B62919464A009F004D /* PartySystem.cpp */,
+				640751DC2919464A009F004D /* PartySystem.h */,
+				640752122919464A009F004D /* quantityfuncs.cpp */,
+				640751B82919464A009F004D /* regions.cpp */,
+				640751AE2919464A009F004D /* regions.h */,
+				640751CF2919464A009F004D /* skills.cpp */,
+				640751DA2919464A009F004D /* skills.h */,
+				6407521F2919464A009F004D /* sound.cpp */,
+				640751D42919464A009F004D /* targeting.cpp */,
+				640751C52919464A009F004D /* teffect.h */,
+				640751CC2919464A009F004D /* trade.cpp */,
+				64A753C1291BF43E00F9A14E /* baseworld */,
+			);
+			name = subsystem;
+			sourceTree = "<group>";
+		};
+		64A753B8291BF0BE00F9A14E /* general */ = {
+			isa = PBXGroup;
+			children = (
+				640751F32919464A009F004D /* ConfigOS.h */,
+				640751FD2919464A009F004D /* enums.h */,
+				6407520A2919464A009F004D /* osunique.cpp */,
+				640751E22919464A009F004D /* osunique.hpp */,
+				640752452919464A009F004D /* Prerequisites.h */,
+				640751C82919464A009F004D /* typedefs.h */,
+				640752362919464A009F004D /* UOXStdHeaders.h */,
+			);
+			name = general;
+			sourceTree = "<group>";
+		};
+		64A753B9291BF0CE00F9A14E /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				640752272919464A009F004D /* EventTimer.cpp */,
+				640751F82919464A009F004D /* EventTimer.hpp */,
+				640751B02919464A009F004D /* GenericList.h */,
+				640751BE2919464A009F004D /* StringUtility.cpp */,
+				640752382919464A009F004D /* StringUtility.hpp */,
+				640751E82919464A009F004D /* TimeUtility.cpp */,
+				640752152919464A009F004D /* TimeUtility.hpp */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		64A753BA291BF0D800F9A14E /* uodata */ = {
+			isa = PBXGroup;
+			children = (
+				640751B42919464A009F004D /* mapclasses.h */,
+				6407522C2919464A009F004D /* mapstuff.cpp */,
+				6407523E2919464A009F004D /* mapstuff.h */,
+				640752202919464A009F004D /* MultiMul.cpp */,
+				640751F02919464A009F004D /* MultiMul.hpp */,
+				6407521B2919464A009F004D /* UOPData.cpp */,
+				640751EC2919464A009F004D /* UOPData.hpp */,
+			);
+			name = uodata;
+			sourceTree = "<group>";
+		};
+		64A753BC291BF0EF00F9A14E /* script */ = {
+			isa = PBXGroup;
+			children = (
+				640752432919464A009F004D /* Dictionary.cpp */,
+				6407520B2919464A009F004D /* Dictionary.h */,
+				6407522D2919464A009F004D /* scriptc.cpp */,
+				640751D12919464A009F004D /* scriptc.h */,
+				640751F92919464A009F004D /* ssection.cpp */,
+				6407521A2919464A009F004D /* ssection.h */,
+			);
+			name = script;
+			sourceTree = "<group>";
+		};
+		64A753BD291BF0FB00F9A14E /* network */ = {
+			isa = PBXGroup;
+			children = (
+				640751DB2919464A009F004D /* CPacketReceive.cpp */,
+				640752322919464A009F004D /* CPacketReceive.h */,
+				640752002919464A009F004D /* CPacketSend.cpp */,
+				6407520D2919464A009F004D /* CPacketSend.h */,
+				640751CE2919464A009F004D /* cSocket.cpp */,
+				640751EB2919464A009F004D /* cSocket.h */,
+				640752442919464A009F004D /* IP4Address.cpp */,
+				640751C72919464A009F004D /* IP4Address.hpp */,
+				640751AF2919464A009F004D /* network.cpp */,
+				640752092919464A009F004D /* network.h */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		64A753BE291BF10400F9A14E /* jsengine */ = {
+			isa = PBXGroup;
+			children = (
+				640752262919464A009F004D /* JSEncapsulate.cpp */,
+				640751B12919464A009F004D /* JSEncapsulate.h */,
+				640752212919464A009F004D /* SEFunctions.cpp */,
+				640752082919464A009F004D /* SEFunctions.h */,
+				640751F72919464A009F004D /* CJSEngine.cpp */,
+				640751FE2919464A009F004D /* CJSEngine.h */,
+				640751C62919464A009F004D /* CJSMapping.cpp */,
+				640751F22919464A009F004D /* CJSMapping.h */,
+				640751CB2919464A009F004D /* cScript.cpp */,
+				640752162919464A009F004D /* cScript.h */,
+				640751E62919464A009F004D /* UOXJSClasses.h */,
+				640751BC2919464A009F004D /* UOXJSMethods.cpp */,
+				640752482919464A009F004D /* UOXJSMethods.h */,
+				640751DF2919464A009F004D /* UOXJSPropertyEnums.h */,
+				640752462919464A009F004D /* UOXJSPropertyFuncs.cpp */,
+				640751ED2919464A009F004D /* UOXJSPropertyFuncs.h */,
+				640752422919464A009F004D /* UOXJSPropertySpecs.h */,
+			);
+			name = jsengine;
+			sourceTree = "<group>";
+		};
+		64A753BF291BF11200F9A14E /* baseobject */ = {
+			isa = PBXGroup;
+			children = (
+				640751D22919464A009F004D /* boats.cpp */,
+				640751B92919464A009F004D /* cBaseobject.cpp */,
+				6407521D2919464A009F004D /* cBaseObject.h */,
+				6407520E2919464A009F004D /* cChar.cpp */,
+				640751BD2919464A009F004D /* cChar.h */,
+				640751C22919464A009F004D /* cGuild.cpp */,
+				640752192919464A009F004D /* cGuild.h */,
+				6407523D2919464A009F004D /* cItem.cpp */,
+				640752402919464A009F004D /* cItem.h */,
+				640752332919464A009F004D /* cMultiObj.cpp */,
+				640751D82919464A009F004D /* cMultiObj.h */,
+				640752252919464A009F004D /* funcdecl.h */,
+				640751EA2919464A009F004D /* ObjectFactory.cpp */,
+				640751E72919464A009F004D /* ObjectFactory.h */,
+				6407523B2919464A009F004D /* PageVector.h */,
+				640752172919464A009F004D /* queue.cpp */,
+				640751CD2919464A009F004D /* speech.cpp */,
+				640752102919464A009F004D /* speech.h */,
+				640752392919464A009F004D /* townregion.cpp */,
+				640751B22919464A009F004D /* townregion.h */,
+				640752052919464A009F004D /* uoxstruct.h */,
+			);
+			name = baseobject;
+			sourceTree = "<group>";
+		};
+		64A753C0291BF2FC00F9A14E /* other */ = {
+			isa = PBXGroup;
+			children = (
+				640751D02919464A009F004D /* ai.cpp */,
+				640752472919464A009F004D /* archive.cpp */,
+				640751FA2919464A009F004D /* calcfuncs.cpp */,
+				640752292919464A009F004D /* cDice.cpp */,
+				640751E02919464A009F004D /* cdice.h */,
+				640751E52919464A009F004D /* classes.h */,
+				6407523F2919464A009F004D /* cmdtable.cpp */,
+				640752232919464A009F004D /* cmdtable.h */,
+				6407520C2919464A009F004D /* cPlayerAction.cpp */,
+				640751D52919464A009F004D /* cRaces.cpp */,
+				640752492919464A009F004D /* cRaces.h */,
+				640751BF2919464A009F004D /* CResponse.cpp */,
+				640751DD2919464A009F004D /* CResponse.h */,
+				640751C32919464A009F004D /* cSkillClass.h */,
+				640752182919464A009F004D /* cSpawnRegion.cpp */,
+				640752042919464A009F004D /* cSpawnRegion.h */,
+				6407524A2919464A009F004D /* cVersionClass.cpp */,
+				640751F42919464A009F004D /* cVersionClass.h */,
+				640752302919464A009F004D /* dist.cpp */,
+				640752032919464A009F004D /* effect.cpp */,
+				640751EF2919464A009F004D /* fileio.cpp */,
+				640751F62919464A009F004D /* findfuncs.cpp */,
+				6407524B2919464A009F004D /* gump.h */,
+				640752112919464A009F004D /* gumps.cpp */,
+				6407522A2919464A009F004D /* msgboard.cpp */,
+				6407522B2919464A009F004D /* msgboard.h */,
+				640751B52919464A009F004D /* npcs.cpp */,
+				640751B72919464A009F004D /* pcmanage.cpp */,
+				640751BA2919464A009F004D /* power.h */,
+				640752222919464A009F004D /* resource.h */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		64A753C1291BF43E00F9A14E /* baseworld */ = {
+			isa = PBXGroup;
+			children = (
+				640751E92919464A009F004D /* cConsole.cpp */,
+				640751C92919464A009F004D /* cConsole.h */,
+				640751FF2919464A009F004D /* cServerData.cpp */,
+				640752342919464A009F004D /* cServerData.h */,
+				6407522E2919464A009F004D /* cServerDefinitions.cpp */,
+				6407520F2919464A009F004D /* cServerDefinitions.h */,
+				640752242919464A009F004D /* cThreadQueue.cpp */,
+				640751F52919464A009F004D /* cThreadQueue.h */,
+				640751C02919464A009F004D /* worldmain.cpp */,
+				640752282919464A009F004D /* worldmain.h */,
+			);
+			name = baseworld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
